@@ -18,6 +18,7 @@ import com.google.android.material.button.MaterialButton;
 public class LoginActivity extends AppCompatActivity {
     private EditText etInputEmail,etInputPassword;
     LinearLayout btWechat,btApple;
+    MaterialButton LoginBotton;
     SharedPreferences sp;
 
     @Override
@@ -27,16 +28,8 @@ public class LoginActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_login);
 
-        sp = getApplicationContext().getSharedPreferences("UserInfoSP", Context.MODE_PRIVATE);
-
-        etInputEmail = findViewById(R.id.etInputEmail);
-        etInputPassword = findViewById(R.id.etInputPassword);
-        btWechat = findViewById(R.id.btWechat);
-        btApple = findViewById(R.id.btApple);
-        MaterialButton LoginBotton = findViewById(R.id.btLogin);
-
+        init();
         saveDefaultUserInfo();
-
 
         etInputPassword.addTextChangedListener(new TextWatcher() {
             @Override
@@ -55,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
             }
             @Override
             public void afterTextChanged(Editable s) {
+
             }
         });
 
@@ -67,7 +61,11 @@ public class LoginActivity extends AppCompatActivity {
 
             if (inputEmail.equals(email) && inputPassword.equals(password)) {
                 Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("userEmail", email);
+                intent.putExtras(bundle);
+                startActivity(intent);
 
             } else {
                 Toast.makeText(LoginActivity.this, "登录失败,请检查邮箱 密码是否正确", Toast.LENGTH_SHORT).show();
@@ -83,6 +81,16 @@ public class LoginActivity extends AppCompatActivity {
         btApple.setOnClickListener(v -> {
             Toast.makeText(LoginActivity.this, "苹果登录", Toast.LENGTH_SHORT).show();
         });
+    }
+
+    private void init() {
+        sp = getApplicationContext().getSharedPreferences("UserInfoSP", Context.MODE_PRIVATE);
+
+        etInputEmail = findViewById(R.id.etInputEmail);
+        etInputPassword = findViewById(R.id.etInputPassword);
+        btWechat = findViewById(R.id.btWechat);
+        btApple = findViewById(R.id.btApple);
+        LoginBotton = findViewById(R.id.btLogin);
     }
 
     private void saveDefaultUserInfo() {

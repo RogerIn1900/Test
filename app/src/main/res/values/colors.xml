@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="weather_primary_text">#FFFFFFFF</color>
+    <color name="weather_secondary_text">#CCFFFFFF</color>
+    <color name="weather_muted_text">#99FFFFFF</color>
+    <color name="weather_card_overlay">#33FFFFFF</color>
+    <color name="weather_chip_border">#4CFFFFFF</color>
 </resources>

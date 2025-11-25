@@ -1,4 +1,4 @@
-package com.example.test2;
+package com.example.test2.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,10 +7,8 @@ import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+import com.example.test2.R;
 import com.google.android.material.card.MaterialCardView;
 
 public class HomeActivity extends AppCompatActivity {

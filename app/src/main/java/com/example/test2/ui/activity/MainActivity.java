@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity implements WeatherNavHost {
     private View navCityTab;
     private View navForecastTab;
 
+    // 当前选中的城市（名称与接口 cityId），默认为广州
+    private String currentCityName = "广州";
+    private String currentCityId = "101280101";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +64,8 @@ public class MainActivity extends AppCompatActivity implements WeatherNavHost {
     public void showTodayScreen() {
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.weatherFragmentContainer, WeatherTodayFragment.newInstance())
+                .replace(R.id.weatherFragmentContainer,
+                        WeatherTodayFragment.newInstance(currentCityId, currentCityName))
                 .commit();
         updateNavSelection(true);
     }
@@ -69,9 +74,20 @@ public class MainActivity extends AppCompatActivity implements WeatherNavHost {
     public void showForecastScreen() {
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.weatherFragmentContainer, WeatherForecastFragment.newInstance())
+                .replace(R.id.weatherFragmentContainer,
+                        WeatherForecastFragment.newInstance(currentCityId, currentCityName))
                 .commit();
         updateNavSelection(false);
+    }
+
+    @Override
+    public void onCitySelected(String cityName, String cityId) {
+        if (cityName != null && !cityName.isEmpty()) {
+            this.currentCityName = cityName;
+        }
+        if (cityId != null && !cityId.isEmpty()) {
+            this.currentCityId = cityId;
+        }
     }
 
     private void updateNavSelection(boolean citySelected) {

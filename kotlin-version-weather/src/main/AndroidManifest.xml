@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test2">
         <activity
-            android:name=".Weather"
+            android:name=".ui.Weather"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

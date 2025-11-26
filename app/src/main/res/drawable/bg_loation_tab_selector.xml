@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下或选中时使用高亮背景 -->
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/bg_location_tab_active" />
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/bg_location_tab_active" />
+
+    <!-- 默认未选中背景 -->
+    <item android:drawable="@drawable/bg_nav_tab_inactive" />
+</selector>

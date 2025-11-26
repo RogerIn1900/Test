@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Test2"
 include(":app")
+include(":kotlin-version-weather")
 include(":weather")

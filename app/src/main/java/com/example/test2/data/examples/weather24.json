@@ -1,0 +1,43 @@
+{
+    "cityid": "101090501",
+    "date": "2025-11-26",
+    "week": "星期三",
+    "update_time": "14:14",
+    "city": "唐山",
+    "cityEn": "tangshan",
+    "country": "中国",
+    "countryEn": "China",
+    "wea": "晴",
+    "wea_img": "qing",
+    "tem": "7.8",
+    "tem1": "7",
+    "tem2": "-1",
+    "win": "西风",
+    "win_speed": "2级",
+    "win_meter": "5km/h",
+    "humidity": "37%",
+    "visibility": "15km",
+    "pressure": "1014",
+    "air": "70",
+    "air_pm25": "40",
+    "air_level": "良",
+    "air_tips": "空气质量可接受，但某些污染物可能对极少数异常敏感人群健康有较弱影响。",
+    "alarm": [
+        {
+            "alarm_type": "大风",
+            "alarm_level": "蓝色",
+            "alarm_title": "河北省发布大风蓝色预警",
+            "alarm_content": "河北省气象台2025年11月25日16时33分发布大风蓝色预警信号：受蒙古东移南下的冷空气影响，26日白天到夜间，张家口、承德西部和保定、廊坊以南地区有西北风4到6级，阵风7到9级，局地可达10级以上，其他地区有西北风4到5级，阵风6到7级，西部和南部地区伴有扬沙或浮尘天气；26日夜间到27日上午，渤海海域和沿海地区有偏北风6到7级，阵风8到9级。请注意防范。（预警信息来源：国家预警信息发布中心）"
+        }
+    ],
+    "rain_pcpn": "0",
+    "uvIndex": "2",
+    "uvDescription": "低",
+    "wea_day": "多云",
+    "wea_day_img": "yun",
+    "wea_night": "阴",
+    "wea_night_img": "yin",
+    "sunrise": "07:03",
+    "sunset": "16:45",
+    "nums": 2
+}

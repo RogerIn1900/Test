@@ -1,0 +1,71 @@
+{
+  "nums": 4,
+  "cityid": "101010100",
+  "city": "北京",
+  "update_time": "2025-11-26 13:14:04",
+  "data": [
+    {
+      "date": "2025-11-26",
+      "wea": "多云",
+      "wea_img": "yun",
+      "tem_day": "8",
+      "tem_night": "-1",
+      "win": "西南风",
+      "win_speed": "<3级转3-4级"
+    },
+    {
+      "date": "2025-11-27",
+      "wea": "晴转多云",
+      "wea_img": "yun",
+      "tem_day": "6",
+      "tem_night": "-2",
+      "win": "西南风",
+      "win_speed": "<3级"
+    },
+    {
+      "date": "2025-11-28",
+      "wea": "晴",
+      "wea_img": "qing",
+      "tem_day": "7",
+      "tem_night": "-2",
+      "win": "北风",
+      "win_speed": "<3级"
+    },
+    {
+      "date": "2025-11-29",
+      "wea": "晴转多云",
+      "wea_img": "yun",
+      "tem_day": "10",
+      "tem_night": "0",
+      "win": "北风",
+      "win_speed": "<3级转3-4级"
+    },
+    {
+      "date": "2025-11-30",
+      "wea": "晴",
+      "wea_img": "qing",
+      "tem_day": "7",
+      "tem_night": "-2",
+      "win": "西北风",
+      "win_speed": "3-4级转<3级"
+    },
+    {
+      "date": "2025-12-01",
+      "wea": "晴",
+      "wea_img": "qing",
+      "tem_day": "4",
+      "tem_night": "-2",
+      "win": "西南风",
+      "win_speed": "<3级"
+    },
+    {
+      "date": "2025-12-02",
+      "wea": "晴转多云",
+      "wea_img": "yun",
+      "tem_day": "5",
+      "tem_night": "-3",
+      "win": "北风",
+      "win_speed": "<3级"
+    }
+  ]
+}

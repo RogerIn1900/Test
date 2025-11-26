@@ -1,0 +1,19 @@
+{
+  "nums": 4,
+  "cityid": "101010100",
+  "city": "北京",
+  "date": "2025-11-26",
+  "week": "星期三",
+  "update_time": "23:07",
+  "wea": "晴",
+  "wea_img": "qing",
+  "tem": "6",
+  "tem_day": "7",
+  "tem_night": "0",
+  "win": "西北风",
+  "win_speed": "4级",
+  "win_meter": "22km/h",
+  "air": "77",
+  "pressure": "1017",
+  "humidity": "30%"
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "cityid": "101010100",
+    "city": "北京",
+    "data": [
+      {
+        "date": "2025-11-26",
+        "wea": "阴",
+        "wea_img": "yin",
+        "tem_day": "8",
+        "tem_night": "-1",
+        "win": "西南风",
+        "win_speed": "<3级转3-4级"
+      },
+      {
+        "date": "2025-11-27",
+        "wea": "晴转多云",
+        "wea_img": "yun",
+        "tem_day": "6",
+        "tem_night": "-2",
+        "win": "西南风",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-11-28",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "7",
+        "tem_night": "-2",
+        "win": "北风",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-11-29",
+        "wea": "晴转多云",
+        "wea_img": "yun",
+        "tem_day": "10",
+        "tem_night": "0",
+        "win": "北风",
+        "win_speed": "<3级转3-4级"
+      },
+      {
+        "date": "2025-11-30",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "7",
+        "tem_night": "-2",
+        "win": "西北风",
+        "win_speed": "3-4级转<3级"
+      },
+      {
+        "date": "2025-12-01",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "4",
+        "tem_night": "-2",
+        "win": "西南风",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-12-02",
+        "wea": "晴转多云",
+        "wea_img": "yun",
+        "tem_day": "5",
+        "tem_night": "-3",
+        "win": "北风",
+        "win_speed": "<3级"
+      }
+    ]
+  },
+  {
+    "cityid": "101020100",
+    "city": "上海",
+    "data": [
+      {
+        "date": "2025-11-26",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "16",
+        "tem_night": "8",
+        "win": "南风",
+        "win_speed": "<3级转3-4级"
+      },
+      {
+        "date": "2025-11-27",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "13",
+        "tem_night": "4",
+        "win": "西北风",
+        "win_speed": "3-4级转<3级"
+      },
+      {
+        "date": "2025-11-28",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "15",
+        "tem_night": "8",
+        "win": "东南风",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-11-29",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "20",
+        "tem_night": "9",
+        "win": "南风",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-11-30",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "18",
+        "tem_night": "8",
+        "win": "西北风",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-12-01",
+        "wea": "阴转多云",
+        "wea_img": "yun",
+        "tem_day": "16",
+        "tem_night": "8",
+        "win": "东北风",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-12-02",
+        "wea": "阴转多云",
+        "wea_img": "yun",
+        "tem_day": "19",
+        "tem_night": "9",
+        "win": "南风",
+        "win_speed": "<3级"
+      }
+    ]
+  },
+  {
+    "cityid": "101280101",
+    "city": "广州",
+    "data": [
+      {
+        "date": "2025-11-26",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "23",
+        "tem_night": "11",
+        "win": "无持续风向",
+        "win_speed": "<3级转3-4级"
+      },
+      {
+        "date": "2025-11-27",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "22",
+        "tem_night": "12",
+        "win": "北风",
+        "win_speed": "3-4级转<3级"
+      },
+      {
+        "date": "2025-11-28",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "22",
+        "tem_night": "11",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-11-29",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "23",
+        "tem_night": "14",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-11-30",
+        "wea": "多云",
+        "wea_img": "yun",
+        "tem_day": "21",
+        "tem_night": "15",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-12-01",
+        "wea": "阴",
+        "wea_img": "yin",
+        "tem_day": "20",
+        "tem_night": "15",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-12-02",
+        "wea": "小雨",
+        "wea_img": "yu",
+        "tem_day": "21",
+        "tem_night": "16",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      }
+    ]
+  },
+  {
+    "cityid": "101280601",
+    "city": "深圳",
+    "data": [
+      {
+        "date": "2025-11-26",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "23",
+        "tem_night": "14",
+        "win": "无持续风向",
+        "win_speed": "<3级转3-4级"
+      },
+      {
+        "date": "2025-11-27",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "22",
+        "tem_night": "13",
+        "win": "北风",
+        "win_speed": "3-4级转<3级"
+      },
+      {
+        "date": "2025-11-28",
+        "wea": "晴",
+        "wea_img": "qing",
+        "tem_day": "22",
+        "tem_night": "14",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-11-29",
+        "wea": "多云",
+        "wea_img": "yun",
+        "tem_day": "24",
+        "tem_night": "14",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-11-30",
+        "wea": "多云",
+        "wea_img": "yun",
+        "tem_day": "24",
+        "tem_night": "17",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-12-01",
+        "wea": "多云",
+        "wea_img": "yun",
+        "tem_day": "24",
+        "tem_night": "18",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      },
+      {
+        "date": "2025-12-02",
+        "wea": "多云",
+        "wea_img": "yun",
+        "tem_day": "23",
+        "tem_night": "16",
+        "win": "无持续风向",
+        "win_speed": "<3级"
+      }
+    ]
+  }
+]
